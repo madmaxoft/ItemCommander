@@ -26,12 +26,14 @@ g_PluginInfo =
 						left =
 						{
 							Alias = "l",
+							Permission = "itemcommand.clear",
 							Handler = HandleCmdClear,
 							HelpString = "Clears the command to execute when left-clicking with the current item in hand",
 						},  -- left
 						right =
 						{
 							Alias = "r",
+							Permission = "itemcommand.clear",
 							Handler = HandleCmdClear,
 							HelpString = "Clears the command to execute when right-clicking with the current item in hand",
 						},  -- right
@@ -46,12 +48,14 @@ g_PluginInfo =
 						left =
 						{
 							Alias = "l",
+							Permission = "itemcommand.set",
 							Handler = HandleCmdSet,
 							HelpString = "Sets the command to execute when left-clicking with the current item in hand",
 						},  -- left
 						right =
 						{
 							Alias = "r",
+							Permission = "itemcommand.set",
 							Handler = HandleCmdSet,
 							HelpString = "Sets the command to execute when right-clicking with the current item in hand",
 						},  -- right
